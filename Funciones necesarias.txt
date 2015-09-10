@@ -1,0 +1,84 @@
+
+load
+
+plot
+
+on off
+
+surf 
+
+contour
+
+logspace
+
+fminunc  %%%% estamfuncion optimza sin restricciones no sirve para optimizacion cuadratica
+
+
+
+
+
+options = optimset('GradObj', 'on', 'MaxIter', 100);
+
+% Set Regularization
+lambda = 10;
+theta = fmincg (@(t)(cofiCostFunc(t, Y, R, num_users, num_movies, ...
+                                num_features, lambda)), ...
+                initial_parameters, options);
+
+
+
+
+
+
+
+
+X = bsxfun(@minus, X, mu(:)');
+
+
+
+
+
+
+
+
+
+
+swap ois ibr overnight vs tasa fija
+
+
+
+Diego
+Capacitacion en torno al tema 
+Acompañamiento experto para dictar la capacitacion 
+
+
+
+
+CVA
+Duracion : dias u horas
+Fecha : 
+Aistencia esperada:  
+
+
+otc peso dolar 
+swap ovc sobre tasa ibr overnight. problema una parte se va 
+cva 
+matriz de riesgo basado en las calificaciones
+insumos de valores 
+
+
+cva para swap tasa fija contra ibr overnight (esquema subasta)
+reglamento de la ibr pagina de asobancaria 
+swap ois 3meses 6meses 
+
+
+
+
+
+
+empleados 19 de supermercado 
+los que dejan 
+
+
+Julian chaverra 
+
